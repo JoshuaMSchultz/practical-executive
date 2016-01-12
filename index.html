@@ -88,19 +88,19 @@ works:
     desc: Design &amp; Development
 
 
-services:
+statements:
   - icon: trophy
-    title: Culture
-    desc: Partnering with and then focusing on the right people can take a ordinary workplace, and turn it into a revolution.
+    title: Purpose
+    desc: If you don't know your why, then almost everything else falls apart. Those which chase money usually fall short, but try to change the world and likely you'll at least change yours!
   - icon: cogs
-    title: Operations
-    desc: Without process and strategy, even the best business will plateau, formalizing and standardizing operations is key to amazing growth.
+    title: Community
+    desc: Partnering with and then focusing on the right people can take a ordinary workplace, and turn it into a revolution.
   - icon: pagelines
     title: Process
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+    desc: Without process and strategy, even the best business will plateau, formalizing and standardizing operations is key to amazing growth.
   - icon: lock
-    title: Security
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+    title: Experience
+    desc: People buy value, and without knowing your value and conveying correctly in your product, service, and experience - staying afloat will be difficult at best.
 
 milestones:
   - icon: folder-open
@@ -231,14 +231,13 @@ milestones:
   </div>
 </div>
 
-
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Our services" %}
+      {% include section-header.html title="Our Mission" %}
       <div class='spacing'></div>
       <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+        Practical Executive is dedicated promoting the existance and growth of Small Businesses. I believe that the Small Businesses are the answer to many of problems we face, and I hope to help spur your creativity and grow your business so that you can be part of the solution! I believe that focusing on the essentials in any business, it can thrive and grow.
       </p>
       <div class='three spacing'></div>
     </div>
@@ -249,12 +248,12 @@ milestones:
       <div class='three spacing'></div>
     </div>
     <div class='medium-6 columns'>
-      {% for service in page.services %}
+      {% for statement in page.statements %}
         <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
           <div class='icon-text-simple'>
             <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
+            <h3>{{statement.title}}</h3>
+            <p>{{statement.desc}}</p>
           </div>
           <div class='two spacing'></div>
         </div>
