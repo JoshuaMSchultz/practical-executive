@@ -63,7 +63,7 @@ $rem-base: 14px;
 // Since the typical default browser font-size is 16px, that makes the calculation for grid size.
 // If you want your base font-size to be different and not have it affect the grid breakpoints,
 // set $rem-base to $base-font-size and make sure $base-font-size is a px value.
-$base-font-size: 14px;
+$base-font-size: 16px;
 
 // The $base-font-size is 100% while $base-line-height is 150%
 $base-line-height: 160%;
@@ -89,12 +89,12 @@ $row-width: rem-calc(1120);
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-$font-family-sans-serif: Raleway, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-serif: 'Open Sans', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
-// $font-weight-normal: normal;
+ $font-weight-normal: 300;
 // $font-weight-bold: bold;
 
 $white       : #FFFFFF;
