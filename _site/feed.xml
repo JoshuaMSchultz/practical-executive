@@ -3,10 +3,10 @@
   <channel>
     <title>Practical Executive</title>
     <description>How to take your small business to the next level through data driven insights and experience forged expertise.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Jan 2016 16:41:34 -0600</pubDate>
-    <lastBuildDate>Tue, 19 Jan 2016 16:41:34 -0600</lastBuildDate>
+    <link>http://joshuaschultz.comhttp://joshuaschultz.com/</link>
+    <atom:link href="http://joshuaschultz.comhttp://joshuaschultz.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 19 Jan 2016 16:43:36 -0600</pubDate>
+    <lastBuildDate>Tue, 19 Jan 2016 16:43:36 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
   </channel>
