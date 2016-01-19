@@ -21,7 +21,7 @@ slides:
       text: We bridge the gap from where you are
     title:
       klass: bottom-to-top
-      text: to where you need to be
+      text: to where you desire to be
     buttons:
       klass: bottom-to-top
       items:
@@ -34,16 +34,16 @@ slides:
 statements:
   - icon: trophy
     title: Purpose
-    desc: Know your Why!
+    desc: We develop a purpose so captivating, no customer will be able to ignore you!
   - icon: cogs
     title: Community
-    desc: Develop your Who!
+    desc: People are the most important part of business, and by shifting the focuso them, you'll see amazing results!
   - icon: pagelines
     title: Process
-    desc: Set your How!
+    desc: When you automate most parts of running a business, you deliver consistent service and allow your buisness to grow.
   - icon: lock
     title: Experience
-    desc: Deliver your Wow!
+    desc: Once everything is set, we can deliver amazing products and services to your community and deliver a revolutionary experience!
 
 ---
 
@@ -106,15 +106,30 @@ statements:
   </div>
 </div>
 
+<div class="four spacing"></div>
+
+<div class="row">
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='Build' desc='Use time-tested frameworks and foundational business concpets to build your very own business today.' icon_class='fa fa-building' delay='0' shape_class='icon-text-circle' %}
+  </div>
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='Grow' desc='Using custom strategies, we will grow your sales and build a brand your customers will adore.' icon_class='fa fa-users' delay='200' shape_class='icon-text-circle' %}
+  </div>
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='Optimize' desc='By looking at the numbers and creating streamlined processes, we will optimize everything from sales to costs.' icon_class='fa fa-table' delay='400' shape_class='icon-text-circle' %}
+  </div>
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='Sell' desc='Ready to exit? We will prepare your business and processes to maximize valuation and get you top dollar.' icon_class='fa fa-usd' delay='600' shape_class='icon-text-circle' %}
+  </div>
+</div>
+
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Our Mission" %}
+      {% include section-header.html title="Why I'm Here!" %}
       <div class='spacing'></div>
-      <p>
-        Practical Executive is dedicated promoting the existance and growth of Small Businesses. I believe that the Small Businesses are the answer to many of problems we face, and I hope to help spur your creativity and grow your business so that you can be part of the solution! I believe that focusing on the essentials in any business, it can thrive and grow.
-      </p>
-      <div class='three spacing'></div>
+
+
     </div>
   </div>
   <div class='row'>
@@ -123,16 +138,15 @@ statements:
       <div class='three spacing'></div>
     </div>
     <div class='medium-6 columns'>
-      {% for statement in page.statements %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{statement.title}}</h3>
-            <p>{{statement.desc}}</p>
-          </div>
-          <div class='two spacing'></div>
-        </div>
-      {% endfor %}
+      <div class='three spacing'></div>
+      <h3>
+        I am a business strategist assisting small business owners with building, growing, and optimizing their ventures.
+      </h3>
+      <p> I am here to help people like you build your business and maximize your impact! </p>
+      <p>
+        Being a small business owner means you are solving this worlds greatest problems. From creating jobs to serving needs, it is essential that you grow your business and unleash your creativity. I am here to help you build your business using fundamental concepts, grow your reach with unique strategies, and optimize it's performance using analysis and data science.
+      </p>
+
     </div>
   </div>
   <div class='spacing'></div>
@@ -141,10 +155,10 @@ statements:
 <div class='full' style='background: #f5f5f5'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Our recent posts" %}
+      {% include section-header.html title="Small Business Ideas & Strategies" %}
       <div class='spacing'></div>
-      <p>
-        Check out some of our most recent information!
+      <p class="text-center">
+        Below are some of the most recent and FREE ideas shared with our small business community!
       </p>
       <div class='two spacing'></div>
     </div>
@@ -204,7 +218,7 @@ statements:
   <div class='mod modCallToAction'>
     <div class='row'>
       <div class='medium-9 large-9 columns'>
-        <p>Like what you see here? Hit me up on Twitter and let me know how we can help you!</p>
+        <p>Like what you see here? Hit me up on Twitter and let me know how I can help you!</p>
       </div>
       <div class='medium-3 large-3 columns'>
         <a class='button' href='http://www.twitter.com/joshuamschultz'>Connect</a>
