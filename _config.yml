@@ -2,10 +2,10 @@
 title: Practical Executive
 email: me@joshuaschultz.com
 description: How to take your small business to the next level through data driven insights and experience forged expertise.
-baseurl: "http://joshuaschultz.com"
-url: "http://joshuaschultz.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: ""
+url: ""
+twitter_username: joshuamschultz
+github_username:  joshuamschultz
 
 # Build settings
 markdown: kramdown
