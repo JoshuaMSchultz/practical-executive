@@ -13,6 +13,8 @@ Each day, as you make your morning cup of coffee you play the news, curious as t
 
 While we know that *fear sells*, and that good news is vastly under reported, this story you are reading still occured... There still exists these daily reminders that all is not well. Perhaps it is another story on the "1%" lining their pockets with cashed-out stock options while their employees are forced towards unemployment, or perhaps it's an account of the 3rd suicide off the local bridge because a young man couldn't see a way out of his depressed life... These injustices exist, and it seems we are powerless to help. So what can small business do for this you may ask? Read on!
 
+{% include chart1.html %}
+
 ##Why you personally can still have an impact
 
 > "There is nothing new under the sun" - Solomon
@@ -60,16 +62,3 @@ By starting, working for, or supporting small business, the ecosystem we call th
 * Better customer service
 
 I will be highlighting these over the coming weeks with specific examples of why we need small businesses to succeed. If you have a small business or a small business idea, I would love to hear your thoughts! [Send me a message](mailto:me@joshuaschultz.com) or [reach out](http://www.twitter.com/joshuamschultz) on twitter and let me know other benefits of small business, and more importantly, **what I can do to help you grow your business**!
-
-
-
-
-
-
-
-
-
-
-
-
-

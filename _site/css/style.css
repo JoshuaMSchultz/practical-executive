@@ -38,6 +38,11 @@ strong {
     font-weight: bold;
 }
 
+#chartdiv {
+	width	: 100%;
+	height	: 500px;
+}	
+
 /*!
  * jQuery UI CSS Framework 1.10.3
  * http://jqueryui.com
