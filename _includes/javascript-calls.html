@@ -7,4 +7,6 @@
 <script src="{{ "/javascripts/charts/amcharts.js" | prepend: site.baseurl }}" type="text/javascript"></script>
 <script src="{{ "/javascripts/charts/serial.js" | prepend: site.baseurl }}" type="text/javascript"></script>
 <script src="{{ "/javascripts/charts/themes/light.js" | prepend: site.baseurl }}" type="text/javascript"></script>
-<script src="{{ "/javascripts/charts/chart1.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+{% for call in page.charts %}
+  <script src="{{ site.baseurl }}/javascripts/charts/blog/{{call}}.js" type="text/javascript"></script>
+{% endfor %}
